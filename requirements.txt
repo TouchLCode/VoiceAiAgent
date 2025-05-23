@@ -1,0 +1,25 @@
+# Audio processing
+sounddevice>=0.4.6
+numpy>=1.24.3
+scipy>=1.11.3
+
+# Speech recognition
+transformers>=4.36.2
+torch>=2.1.2
+# Note: If using CUDA, you might need to install the appropriate torch version
+# for your CUDA version from https://pytorch.org/
+
+# LLM interaction
+langchain>=0.1.0
+langchain-community>=0.0.13
+# Note: LM Studio needs to be running locally on port 1234
+
+# Text to speech
+kokoro>=0.7.16  # Kokoro TTS library for voice generation
+openai>=1.6.1  # Required for Whisper model
+
+# Information retrieval tools
+wikipedia>=1.4.0  # For Wikipedia API access
+duckduckgo-search>=4.1.1  # For DuckDuckGo search capability
+
+pvrecorder==1.2.5
